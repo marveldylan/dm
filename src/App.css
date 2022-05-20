@@ -121,6 +121,7 @@
   color: #354f52;
   font-size: larger;
 }
+
 .landing-image {
   display: block;
   width: 80%;
@@ -128,7 +129,13 @@
   margin: 0 auto;
 }
 
-.about-container{
+.Mobile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.about-container {
   height: 100vh;
   color: #EAEDE8;
   display: grid;
