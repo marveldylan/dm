@@ -5,7 +5,7 @@ const Resume = () => {
 
     return (
         <div>
-            <h3>Resume Linked</h3>
+            <iframe src="https://drive.google.com/file/d/1M5Jnx-TE6BZnAPaAcnOSVAflDBeBKcG7/view?usp=sharing"></iframe>
         </div>
     )
 }

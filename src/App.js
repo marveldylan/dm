@@ -34,7 +34,7 @@ function App() {
       </header> */}
       <main className="App-main">
         {
-          (windowWidth > 950) ?
+          (windowWidth > 650) ?
           <Landing />
           : <MobileLanding />
         }
@@ -42,7 +42,6 @@ function App() {
         <About />
         <Work />
         <Contact />
-
       </main>
 
     </div>

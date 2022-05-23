@@ -37,7 +37,7 @@
 }
 
 .navbar {
-  height: 15vh;
+  min-height: 15vh;
   color: white;
   display: grid;
   grid-template-columns: 10% 1fr 10%;
@@ -79,26 +79,26 @@
   color: white;
 }
 
-.landing-container {
+.Landing-container {
   /* display: grid;
   grid-template-columns: 1fr 4fr 1fr; */
   width: 100%;
   text-align: left;
 }
 
-.landing-banner {
-  /* height: 90vh; */
-  height: 100vh;
+.Landing-banner {
+  min-height: 100vh;
 }
 
-.landing-image-container {
+.Landing-image-container {
+
 }
 
-.image {
+.Landing-image {
   width: 100%;
   height: auto;
 }
-.landing-text-container {
+.Landing-text-container {
   width: 40%;
   margin-top: 40vh;
   margin-left: 10%;
@@ -106,23 +106,23 @@
   text-align: left;
 }
 
-.landing-greeting {
+.Landing-greeting {
   color: #52796f;
   font-family: 'Roboto Mono', monospace;
   font-size: x-large;
 }
 
-.landing-name {
+.Landing-name {
   color: #EAEDE8;
   font-size: 5em;
 }
 
-.landing-p-1 {
+.Landing-p-1 {
   color: #354f52;
   font-size: larger;
 }
 
-.landing-image {
+.Landing-image {
   display: block;
   width: 80%;
   height: auto;
@@ -136,27 +136,105 @@
 }
 
 .About-container {
-  height: 100vh;
+  min-height: 100vh;
   color: #EAEDE8;
   display: grid;
   grid-template-columns: 10% 1fr 10%;
   text-align: left;
 }
 
-.work-container {
+.Work-container {
+  min-height: 100vh;
+  color: #EAEDE8;
   display: grid;
-  grid-template: 100px, 1fr / 10%, 1fr, 10%;
+  grid-template-columns: 10% 1fr 10%;
   text-align: left;
-  height: 100vh;
 }
 
-.projects-container {
+.Work-content {
   display: grid;
-  grid-template: 1fr, 1fr / 1fr, 1fr;
+  grid-template-rows: 70px 1fr 1fr;
+}
+
+.Project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.Project-card {
+  height: 100%;
+  /* border-left: 1px solid #C9D2C5;
+  border-right: 1px solid #C9D2C5; */
+  border-radius: 10px;
+  margin: 5px;
+  display: grid;
+  grid-template-rows: 2fr 1fr 100px;
+}
+
+.Project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Project-about {
+  margin-top: 10px;
+  padding-left: 10px;
+  border: 1px solid #C9D2C5;
+  border-radius: 10px;
+}
+
+.Project-title {
+  padding: 10px 0px;
+  font-size: large;
+  color: #C9D2C5;
+}
+
+.Project-description {
+  padding: 10px 0px;
+  color: #C9D2C5;
+}
+
+.Project-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Link {
+  padding-right: 10px;
+}
+
+.Link a {
+  text-decoration: none;
+  color: #C9D2C5;
+}
+
+.Link a:hover {
+  text-decoration: underline;
+}
+
+.Project-tech {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #C9D2C5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  border-radius: 10px;
+}
+
+.Tech-logo {
+  height: 40px;
+  width: 40px;
 }
 
 .contact-container {
-  height: 100vh;
+  min-height: 100vh;
+
 }
 
 .App-link {
@@ -169,5 +247,12 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }

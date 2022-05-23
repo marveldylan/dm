@@ -1,3 +1,4 @@
+
 const Nav = () => {
 
 
@@ -9,7 +10,7 @@ const Nav = () => {
                     <li className="nav-link"><a href="">About</a></li>
                     <li className="nav-link"><a href="">Work</a></li>
                     <li className="nav-link"><a href="">Contact</a></li>
-                    <li className="nav-link"><a href="">Resume</a></li>
+                    <li className="nav-link"><a href="https://drive.google.com/file/d/1M5Jnx-TE6BZnAPaAcnOSVAflDBeBKcG7/view?usp=sharing">Resume</a></li>
                 </ul>
             </div>
             <div className="nav-right">
