@@ -33,7 +33,8 @@ const Work = () => {
                         </div>
                     </div>
                     <div className="Project-card">
-                        <img className="Project-image" src="https://i.imgur.com/gt9SXx7.png" />
+                        {/* <img className="Project-image" src="https://i.imgur.com/gt9SXx7.png" /> */}
+                        <iframe className="Project-image" src="https://www.youtube.com/embed/KOCCQ1StCc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
                         <div className="Project-about">
                             <p className="Project-title">Medici</p>
                             <p className="Project-description">Mock nft-commerce website for primary sale between store-fronts/collections and buyer -  features user and shop profiles for listing owned NFTs, a buying mechanism for transferring ownership, and novel viewport layout for viewing owned items.</p>
@@ -54,7 +55,8 @@ const Work = () => {
                         </div>
                     </div>
                     <div className="Project-card">
-                        <img className="Project-image" src="https://i.imgur.com/KElSfT9.jpg" />
+                        {/* <img className="Project-image" src="https://i.imgur.com/KElSfT9.jpg" /> */}
+                        <iframe className="Project-image" src="https://www.youtube.com/embed/MsyVVXxM12E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
                         <div className="Project-about">
                             <p className="Project-title">Duemila-Ruote</p>
                             <p className="Project-description">A web application focused on viewing, buying, selling, and modding luxury cars - features a garage webpage for viewing owned cars and mod parts, as well as a public lot listing cars for sale.  Allows users to mod cars with with owned parts and view how stats increase accordingly.</p>
