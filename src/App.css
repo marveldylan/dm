@@ -2,9 +2,10 @@
 
 .App {
   text-align: center;
-  background-color: #C9D2C5;
-  background-color: #354f52;
-  /* background-color: #202C31; */
+  background-color: #242821;
+  background-color: #202C31;
+  /* background-color: #1A1F26; */
+  /* background-color: #1d272b; */
   color: #CAD2C5;
   font-family: 'Roboto', sans-serif
 }
@@ -12,6 +13,35 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Dark {
+  background-color: #202C31;
+  color: #CAD2C5;
+}
+
+.Dark-txt {
+  color: #202C31;
+}
+
+.Dark-txt a {
+  color: #202C31;
+  text-decoration: none;
+}
+
+
+.Light {
+  color: #202C31;
+  background-color: #CAD2C5;
+}
+
+.Light-txt {
+  color: #CAD2C5;
+}
+
+.Light-txt a {
+  color: #CAD2C5;
+  text-decoration: none;
 }
 
 
@@ -36,21 +66,20 @@
 
 }
 
-.navbar {
+.Navbar {
   min-height: 15vh;
-  color: white;
   display: grid;
   grid-template-columns: 10% 1fr 10%;
   justify-content: center;
   align-items: center;
 }
 
-.nav-links {
+.Nav-links {
   display: flex;
   justify-content: left;
 }
 
-.nav-list {
+.Nav-list {
   padding-top: 2px;
   display: flex;
   list-style: none;
@@ -58,26 +87,22 @@
   justify-content: left;
   margin-left: -35.5px;
 }
-.nav-link {
+.Nav-link {
   padding-right: 20px;
   padding-left: -20px;
 
 }
-.nav-link a {
-  color: #DFE4DC;
-  text-decoration: none;
+.Nav-link a:hover {
+  text-decoration: underline;
 }
 
-.logo {
+.Logo {
   margin: 0 auto;
   margin-top: 5px;
   width: auto;
   height: 45%;
 }
 
-.nav {
-  color: white;
-}
 
 .Landing-container {
   /* display: grid;

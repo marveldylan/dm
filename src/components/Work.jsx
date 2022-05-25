@@ -77,7 +77,8 @@ const Work = () => {
                         </div>
                     </div>
                     <div className="Project-card">
-                        <img className="Project-image" src="https://i.imgur.com/nwbcNb9.png"/>
+                        {/* <img className="Project-image" src="https://i.imgur.com/nwbcNb9.png"/> */}
+                        <iframe className="Project-image" src="https://www.youtube.com/embed/I4Ho_TDmAdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
                         <div className="Project-about">
                             <p className="Project-title">BATTLEDUCKS</p>
                             <p className="Project-description">Drag-and-drop two-player card game built from scratch utilizing HTML, CSS, JavaScript. BATTLEDUCKS features custom pixel assets and functions for game initialization, multiple player actions, and win-condition checks.</p>
