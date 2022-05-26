@@ -5,7 +5,7 @@ const Contact = () => {
 
     return (
         <div className="Dark">
-            <Parallax className="Contact-container" id="Contact" speed={-30}>
+            <Parallax className="Contact-container" id="contact" speed={-30}>
                 <div></div>
                 <div className="Contact-content Light">
                     <h2>Contact Me</h2>

@@ -5,7 +5,7 @@ const About = () => {
 
     return (
             <div className="Dark">
-                <Parallax className="About-container Dark" id="About" speed={10}>
+                <Parallax className="About-container Dark" id="about" speed={10}>
                     <div></div>
                     <div className='About-content'>
                         <div className='About-info'>

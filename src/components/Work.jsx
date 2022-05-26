@@ -5,7 +5,7 @@ const Work = () => {
 
     return (
             <div className="Dark">
-                <Parallax className="Work-container Dark" id="Work" speed={10}>
+                <Parallax className="Work-container Dark" id="work" speed={10}>
                     <div></div>
                     <div className="Work-content">
                         <h2 className="Work-header Dark">Projects</h2>

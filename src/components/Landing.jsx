@@ -5,7 +5,7 @@ const Landing = () => {
 
 
     return (
-        <div className="Landing-container">
+        <div className="Landing-container" id="home">
             <ParallaxBanner
                 className="Landing-banner"
                 layers={[

@@ -3,7 +3,7 @@ import { Parallax } from "react-scroll-parallax";
 const MobileLanding = () => {
 
     return (
-        <Parallax className="Mobile-parallax" speed={-30}>
+        <Parallax className="Mobile-parallax" id="home" speed={-30}>
             <div className="Mobile-landing Light">
                 <div className="Mobile-text-container">
                     <p className="Mobile-greeting">Howdy, my name is</p>
