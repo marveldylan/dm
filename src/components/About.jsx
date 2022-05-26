@@ -13,7 +13,7 @@ const About = () => {
                             <p className="About-p-1">Hey there! My name is Dylan and I like to make things. When I was a kid those things were mostly made with Lego bricks and a young boy's imaginings. Now they're made with sweat, computer speak and a slightly older boy's dreams!</p>
                             <p className="About-p-2">I’m a driven full stack web developer with a background in physical science. Whether I’m building JavaScript applications or formulating chemical products, I approach each new challenge with a technical mindset and willingness to experiment!</p>
                         </div>
-                        <div className='Skills-content'>
+                        <div className='Skills-content Dark'>
                         <h2 className="Skills-header">Skills</h2>
                         <p>Front End</p>
                         <div className="Front-end">
