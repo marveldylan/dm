@@ -18,9 +18,9 @@ const Landing = () => {
                     {
                         children:
                             <div className="Landing-text-container">
-                                <h1 className="Landing-greeting">Howdy, my name is</h1>
-                                <h1 className="Landing-name">Dylan Marvel.</h1>
-                                <p className="Landing-p-1">I’m a driven full stack web developer with a background in physical science. Whether I’m building JavaScript applications or formulating chemical products, I approach each new challenge with a technical mindset and willingness to experiment!</p>
+                                <p className="Landing-greeting Dark-txt">Howdy, my name is</p>
+                                <h1 className="Landing-name Super-light-txt">Dylan Marvel.</h1>
+                                <p className="Landing-p-1 Dark-txt">I’m a full stack web developer.</p>
                             </div>, 
                             speed: 15
                     },

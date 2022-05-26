@@ -1,19 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
-import { ParallaxProvider } from 'react-scroll-parallax'
 import {Routes, Route } from 'react-router-dom'
 import About from './components/About'
 import Contact from './components/Contact'
 import Landing from './components/Landing'
 import MobileLanding from './components/MobileLanding';
-import Resume from './components/Resume'
+import MobileNav from './components/MobileNavbar';
+import Skills from './components/Skills';
 import Work from './components/Work'
+import Credits from './components/Credits'
+import Footer from './components/Footer';
 
 function App() {
 
   const [windowWidth, setWidth] = useState(window.innerWidth)
   const [windowHeight, setHeight] = useState(window.innerHeight)
+
 
 
   useEffect(() => {
@@ -28,20 +30,35 @@ function App() {
   }, [windowWidth, windowHeight])
 
   return (
-    <div className="App">
+    <div className="App Light">
       {/* <header className="App-header">
         <Nav />
       </header> */}
       <main className="App-main">
         {
           (windowWidth > 650) ?
-          <Landing />
-          : <MobileLanding />
+          <div className="Desktop-app">
+            <Landing />
+            <About />
+    
+            <Work />
+            <Contact />
+            <Footer />
+          </div>
+          : 
+          <div className="Mobile-app">
+            <MobileLanding />
+            <MobileNav />
+            <About />
+     
+            <Work />
+            <Contact />
+            <Footer />
+          </div>
         }
-
-        <About />
-        <Work />
-        <Contact />
+      <Routes>
+        <Route path="/credits" element={<Credits />} />
+      </Routes>
       </main>
 
     </div>
