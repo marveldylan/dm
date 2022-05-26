@@ -12,7 +12,7 @@ const Work = () => {
                         <div className="Project-grid">
                             <div className="Project-card Dark">
                                 {/* <img className="Project-image" src="https://i.imgur.com/ZvsBDKf.png" /> */}
-                                <iframe className="Project-image" src="https://www.youtube.com/embed/ejuek348lJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                                <iframe className="Project-image" src="https://www.youtube.com/embed/ejuek348lJM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>
                                 <div className="Project-about">
                                     <p className="Project-title">Project_Indigo</p>
                                     <p className="Project-description">May 2022 - Capstone Project (Sole Developer). Built and deployed within 10 days. </p>
@@ -37,7 +37,7 @@ const Work = () => {
                             </div>
                             <div className="Project-card Dark">
                                 {/* <img className="Project-image" src="https://i.imgur.com/gt9SXx7.png" /> */}
-                                <iframe className="Project-image" src="https://www.youtube.com/embed/KOCCQ1StCc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                                <iframe className="Project-image" src="https://www.youtube.com/embed/KOCCQ1StCc4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>
                                 <div className="Project-about">
                                     <p className="Project-title">Medici</p>
                                     <p className="Project-description">April 2022 - Project 2 (Sole Developer). Built and deployed within 4 days.</p>
@@ -60,7 +60,7 @@ const Work = () => {
                             </div>
                             <div className="Project-card Dark">
                                 {/* <img className="Project-image" src="https://i.imgur.com/KElSfT9.jpg" /> */}
-                                <iframe className="Project-image" src="https://www.youtube.com/embed/MsyVVXxM12E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                                <iframe className="Project-image" src="https://www.youtube.com/embed/MsyVVXxM12E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>
                                 <div className="Project-about">
                                     <p className="Project-title">Duemila-Ruote</p>
                                     <p className="Project-description">April 2022 - Project 3 (Collaborative). Built and deployed with a team of four developers within 7 days.</p>
@@ -86,7 +86,7 @@ const Work = () => {
                             </div>
                             <div className="Project-card Dark">
                                 {/* <img className="Project-image" src="https://i.imgur.com/nwbcNb9.png"/> */}
-                                <iframe className="Project-image" src="https://www.youtube.com/embed/I4Ho_TDmAdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                                <iframe className="Project-image" src="https://www.youtube.com/embed/I4Ho_TDmAdE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>
                                 <div className="Project-about">
                                     <p className="Project-title">BATTLEDUCKS</p>
                                     <p className="Project-description">March 2022 - Project 1 (Sole Developer). Built and deployed within 4 days.</p>

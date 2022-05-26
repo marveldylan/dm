@@ -36,7 +36,7 @@ function App() {
       </header> */}
       <main className="App-main">
         {
-          (windowWidth > 650) ?
+          (windowWidth > 850) ?
           <div className="Desktop-app">
             <Landing />
             <About />
@@ -57,6 +57,12 @@ function App() {
           </div>
         }
       <Routes>
+        {/* {
+          (windowWidth > 650) ?
+          <Route path="/" element={<Landing />} />
+          :
+          <Route path="/" element={<MobileLanding />} />
+        } */}
         <Route path="/credits" element={<Credits />} />
       </Routes>
       </main>
