@@ -1,4 +1,5 @@
 import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
+import About from './About';
 import Nav from './Nav';
 
 const Landing = () => {
@@ -19,8 +20,9 @@ const Landing = () => {
                         children:
                             <div className="Landing-text-container">
                                 <p className="Landing-greeting Dark-txt">Howdy, my name is</p>
-                                <h1 className="Landing-name Super-light-txt">Dylan Marvel.</h1>
+                                <h1 className="Landing-name Color-txt">Dylan Marvel.</h1>
                                 <p className="Landing-p-1 Dark-txt">I’m a full stack web developer.</p>
+                                <About />
                             </div>, 
                             speed: 15
                     },

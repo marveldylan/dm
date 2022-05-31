@@ -9,7 +9,7 @@ const Contact = () => {
                 <div></div>
                 <div className="Contact-content Light">
                     <div className="Contact-info">
-                        <p className="Goodbye">I think we'll get along <span className="Italics">marvelously.</span></p>
+                        <p className="Goodbye">I think we'll get along <span className="Italics Color-txt">marvelously.</span></p>
                         <p>Send me a message:</p>
                         <a href="mailto:marvel.dylan.james@gmail.com" target="_blank"><img className="Tech-logo" src={process.env.PUBLIC_URL + "icons8-mail.svg"} alt="mail" /></a>
                         <p> - or - </p>
