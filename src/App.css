@@ -251,46 +251,62 @@
   padding: 30px;
 }
 
+.Chemistry-logo {
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 30px auto;
+}
+
 .About-info {
   padding-right: 40px;
 }
 
 .Skills-container {
-  min-height: 90vh;
+  text-align: center;
   display: grid;
-  grid-template-columns: 10% 1fr 10%;
-  text-align: left;
-  position: relative;
-  z-index: 1;
+  grid-template-columns: 1fr 4fr;
+  border: 1px solid #1f2629;
+  border-radius: 5px;
+  align-items: center;
+  margin: 10px 0;
 }
 
 .Skills-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  padding: 0px 20px;
 }
 
 .Front-end {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  border-top: 1px solid #7a7b79;
-  border-bottom: 1px solid #7a7b79;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .Back-end {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  border-top: 1px solid #7a7b79;
-  border-bottom: 1px solid #7a7b79;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .Other {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  border-top: 1px solid #7a7b79;
-  border-bottom: 1px solid #7a7b79;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .Skill-badge {
@@ -302,6 +318,12 @@
   padding-top: 5px;
   margin: 5px 0;
 
+}
+
+.Skill-badge:hover {
+  animation-name: item-bounce;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }
 
 .Skill-name {
@@ -371,12 +393,18 @@
   border-top-right-radius: 10px;
   border-top-left-radius: 0;
   border-left: 1px solid #7a7b79;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Project-about-l {
   padding: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Project-tech-r {
@@ -530,6 +558,12 @@
   overflow: auto;
   height: 45px;
   width: 45px;
+}
+
+.Mail-logo:hover {
+  animation-name: item-bounce;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }
 
 .Resume a {
@@ -733,14 +767,19 @@
     flex-direction: column;
   }
 
+  .Skills-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px;
+  }
+
   .Footer-container {
     margin-top: -7vh;
     grid-template-columns: 2% 1fr 2%;
   }
 
-  .Skills-container {
-    grid-template-columns: 2% 1fr 2%;
-  }
 
   .Contact-container {
     grid-template-columns: 2% 1fr 2%;
@@ -790,6 +829,8 @@
     padding: 0px 15px;
   }
 
+
+
   .Project-card {
     min-height: 90vh;
   }
@@ -817,7 +858,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 50vh;
+    min-height: 40vh;
     border: none;
   }
 
@@ -825,7 +866,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 50vh;
+    min-height: 40vh;
     border: none;
   }
 

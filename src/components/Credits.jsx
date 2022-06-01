@@ -43,6 +43,12 @@ const Credits = () => {
                 <a target="_blank" href="https://icons8.com/icon/9378/rocket">Rocket</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
             
                 <a target="_blank" href="https://icons8.com/icon/59881/rocket">Rocket</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+                <a target="_blank" href="https://icons8.com/icon/mUBILbYvUMq8/django">Django</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+                <a target="_blank" href="https://icons8.com/icon/101379/python">Python</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+                <a target="_blank" href="https://icons8.com/icon/la2tQEGz-gNl/redux">Redux</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
             </div>
             <div></div>
         </div>
