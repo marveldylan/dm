@@ -1,6 +1,6 @@
 import { Parallax } from "react-scroll-parallax";
 
-const Work = () => {
+const Work = ({ windowWidth }) => {
 
 
     return (
@@ -11,8 +11,8 @@ const Work = () => {
                         <h2 className="Work-header Dark">Projects</h2>
                         <div className="Project-grid">
                             <div className="Project-card Light">
-                                <a href="https://youtu.be/ejuek348lJM" target="_blank"><img className="Project-image-l" src="https://i.imgur.com/ZvsBDKf.png" /></a>
-                                {/* <iframe className="Project-image-l" src="https://www.youtube.com/embed/ejuek348lJM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
+                                {/* <a href="https://youtu.be/ejuek348lJM" target="_blank"><img className="Project-image-l" src="https://i.imgur.com/ZvsBDKf.png" /></a> */}
+                                <iframe className="Project-image-l" src="https://www.youtube.com/embed/ejuek348lJM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>
                                 <div className="Project-about-r">
                                     <h1 className="Project-title Color-txt">Project_Indigo</h1>
                                     <p className="Project-description">May 2022 - Capstone Project (Sole Developer). Built and deployed within 10 days. </p>
@@ -51,8 +51,8 @@ const Work = () => {
                                 </div>
                             </div>
                             <div className="Project-card Light">
-                                <a href="https://youtu.be/KOCCQ1StCc4" target="_blank"><img className="Project-image-r" src="https://i.imgur.com/gt9SXx7.png" /></a>
-                                {/* <iframe className="Project-image-r" src="https://www.youtube.com/embed/KOCCQ1StCc4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
+                                {/* <a href="https://youtu.be/KOCCQ1StCc4" target="_blank"><img className="Project-image-r" src="https://i.imgur.com/gt9SXx7.png" /></a> */}
+                                <iframe className="Project-image-r" src="https://www.youtube.com/embed/KOCCQ1StCc4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>
                                 <div className="Project-about-l">
                                     <h1 className="Project-title Color-txt">Medici</h1>
                                     <p className="Project-description">April 2022 - Project 2 (Sole Developer). Built and deployed within 4 days.</p>
@@ -84,8 +84,8 @@ const Work = () => {
                                 </div>
                             </div>
                             <div className="Project-card Light">
-                                <a href="https://youtu.be/MsyVVXxM12E" target="_blank"><img className="Project-image-l" src="https://i.imgur.com/KElSfT9.jpg" /></a>
-                                {/* <iframe className="Project-image-l" src="https://www.youtube.com/embed/MsyVVXxM12E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
+                                {/* <a href="https://youtu.be/MsyVVXxM12E" target="_blank"><img className="Project-image-l" src="https://i.imgur.com/KElSfT9.jpg" /></a> */}
+                                <iframe className="Project-image-l" src="https://www.youtube.com/embed/MsyVVXxM12E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>
                                 <div className="Project-about-r">
                                     <h1 className="Project-title Color-txt">Duemila-Ruote</h1>
                                     <p className="Project-description">April 2022 - Project 3 (Collaborative). Built and deployed with a team of four developers within 7 days.</p>
@@ -125,8 +125,8 @@ const Work = () => {
                                 </div>
                             </div>
                             <div className="Project-card Light">
-                                <a href="https://youtu.be/I4Ho_TDmAdE" target="_blank"><img className="Project-image-r" src="https://i.imgur.com/nwbcNb9.png"/></a>
-                                {/* <iframe className="Project-image-r" src="https://www.youtube.com/embed/I4Ho_TDmAdE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
+                                {/* <a href="https://youtu.be/I4Ho_TDmAdE" target="_blank"><img className="Project-image-r" src="https://i.imgur.com/nwbcNb9.png"/></a> */}
+                                <iframe className="Project-image-r" src="https://www.youtube.com/embed/I4Ho_TDmAdE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>
                                 <div className="Project-about-l">
                                     <h1 className="Project-title Color-txt">BATTLEDUCKS</h1>
                                     <p className="Project-description">March 2022 - Project 1 (Sole Developer). Built and deployed within 4 days.</p>
