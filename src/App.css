@@ -417,8 +417,46 @@
 .Project-links {
   padding: 0px 10px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   z-index: 5;
+}
+
+.Project-links a {
+  text-decoration: none;
+}
+
+.Project-links a:hover {
+  text-decoration: underline;
+  animation-name: item-bounce;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+
+.P-badge {
+  min-width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 5px 5px 5px;
+  margin: 5px;
+  border: 1px solid #1f2629;
+  border-radius: 3px;
+
+}
+
+
+.P-name {
+  font-size: small;
+  text-align: center;
+}
+
+.P-logo {
+  padding: 0px 0px;
+  overflow: auto;
+  height: 30px;
+  width: 30px;
 }
 
 .Link {
@@ -485,6 +523,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.Mail-logo {
+  padding: 0px 5px;
+  overflow: auto;
+  height: 45px;
+  width: 45px;
 }
 
 .Resume a {

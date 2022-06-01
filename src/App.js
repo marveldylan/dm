@@ -39,6 +39,7 @@ function App() {
           (windowWidth > 850) ?
           <div className="Desktop-app">
             <Landing />
+            <About />
             <Work />
             <Contact />
             <Footer />

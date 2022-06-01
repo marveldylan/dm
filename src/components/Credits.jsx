@@ -39,6 +39,10 @@ const Credits = () => {
                 <a target="_blank" href="https://icons8.com/icon/59813/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
                 <a target="_blank" href="https://icons8.com/icon/8808/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            
+                <a target="_blank" href="https://icons8.com/icon/9378/rocket">Rocket</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            
+                <a target="_blank" href="https://icons8.com/icon/59881/rocket">Rocket</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
             </div>
             <div></div>
         </div>

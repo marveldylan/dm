@@ -22,7 +22,6 @@ const Landing = () => {
                                 <p className="Landing-greeting Dark-txt">Howdy, my name is</p>
                                 <h1 className="Landing-name Color-txt">Dylan Marvel.</h1>
                                 <p className="Landing-p-1 Dark-txt">I’m a full stack web developer.</p>
-                                <About />
                             </div>, 
                             speed: 15
                     },
