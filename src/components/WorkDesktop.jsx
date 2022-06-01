@@ -1,6 +1,6 @@
 import { Parallax } from "react-scroll-parallax";
 
-const Work = ({ windowWidth }) => {
+const WorkDesktop = ({ windowWidth }) => {
 
 
     return (
@@ -51,7 +51,6 @@ const Work = ({ windowWidth }) => {
                                 </div>
                             </div>
                             <div className="Project-card Light">
-                                <a href="https://youtu.be/KOCCQ1StCc4" target="_blank"><img className="Project-image-r" src="https://i.imgur.com/gt9SXx7.png" /></a>
                                 {/* <iframe className="Project-image-r" src="https://www.youtube.com/embed/KOCCQ1StCc4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
                                 <div className="Project-about-l">
                                     <h1 className="Project-title Color-txt">Medici</h1>
@@ -72,6 +71,7 @@ const Work = ({ windowWidth }) => {
                                         </a>
                                     </div>
                                 </div>
+                                <a href="https://youtu.be/KOCCQ1StCc4" target="_blank"><img className="Project-image-r" src="https://i.imgur.com/gt9SXx7.png" /></a>
                                 <div className="Project-tech-l Light">
                                     <img className="Tech-logo" src={process.env.PUBLIC_URL + "icons8-mongodb.svg"} alt="MongoDB" />
                                     <img className="Tech-logo" src={process.env.PUBLIC_URL + "icons8-circled-e-50.png"} alt="Express.js" />
@@ -125,7 +125,6 @@ const Work = ({ windowWidth }) => {
                                 </div>
                             </div>
                             <div className="Project-card Light">
-                                <a href="https://youtu.be/I4Ho_TDmAdE" target="_blank"><img className="Project-image-r" src="https://i.imgur.com/nwbcNb9.png"/></a>
                                 {/* <iframe className="Project-image-r" src="https://www.youtube.com/embed/I4Ho_TDmAdE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
                                 <div className="Project-about-l">
                                     <h1 className="Project-title Color-txt">BATTLEDUCKS</h1>
@@ -146,6 +145,7 @@ const Work = ({ windowWidth }) => {
                                         </a>
                                     </div>
                                 </div>
+                                <a href="https://youtu.be/I4Ho_TDmAdE" target="_blank"><img className="Project-image-r" src="https://i.imgur.com/nwbcNb9.png"/></a>
                                 <div className="Project-tech-l Light">
                                     <img className="Tech-logo" src={process.env.PUBLIC_URL + "icons8-html-5.svg"} alt="HTML" />
                                     <img className="Tech-logo" src={process.env.PUBLIC_URL + "icons8-css3.svg"} alt="CSS" />
@@ -160,4 +160,4 @@ const Work = ({ windowWidth }) => {
     )
 }
 
-export default Work;
+export default WorkDesktop;

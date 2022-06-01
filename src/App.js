@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Work from './components/Work'
 import Credits from './components/Credits'
 import Footer from './components/Footer';
+import WorkDesktop from './components/WorkDesktop';
 
 function App() {
 
@@ -36,11 +37,11 @@ function App() {
       </header> */}
       <main className="App-main">
         {
-          (windowWidth > 850) ?
+          (windowWidth > 950) ?
           <div className="Desktop-app">
             <Landing />
             <About />
-            <Work />
+            <WorkDesktop />
             <Contact />
             <Footer />
           </div>
