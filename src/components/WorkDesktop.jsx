@@ -17,6 +17,7 @@ const WorkDesktop = ({ windowWidth }) => {
                                     <h1 className="Project-title Color-txt">Project_Indigo</h1>
                                     <p className="Project-description">May 2022 - Solo Developer. Built and deployed within 9 days. </p>
                                     <p className="Project-description">Social media application for sharing information and building communities around hobbies and crafts - features user profiles, custom posts and comments, and a novel system for reviewing content. Allows for creating and disbanding groups and channels, along with complex rules for displaying posts and comments.</p>
+                                    <p className="Project-description">Test Login: test@test.test - Test Password: 1234</p>
                                     <div className="Project-links">
                                         <a href="https://project-indigo-front-end.herokuapp.com/" target="_blank">
                                             <div className="P-badge">
@@ -90,6 +91,7 @@ const WorkDesktop = ({ windowWidth }) => {
                                     <h1 className="Project-title Color-txt">Duemila-Ruote</h1>
                                     <p className="Project-description">April 2022 - Collaborative. Built and deployed with a team of four developers within 7 days.</p>
                                     <p className="Project-description">A web application focused on viewing, buying, selling, and modding luxury cars - features a garage webpage for viewing owned cars and mod parts, as well as a public lot listing cars for sale.  Allows users to mod cars with owned parts and view how stats increase accordingly.</p>
+                                    <p className="Project-description">Test Login: jsmith@example.com - Test Password: 12345</p>
                                     <div className="Project-links Dark-txt">
                                         <a href="https://ancient-atoll-31198.herokuapp.com/" target="_blank">
                                             <div className="P-badge">
