@@ -15,7 +15,7 @@ const Work = ({ windowWidth }) => {
                                 {/* <iframe className="Project-image-l" src="https://www.youtube.com/embed/ejuek348lJM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
                                 <div className="Project-about-r">
                                     <h1 className="Project-title Color-txt">Project_Indigo</h1>
-                                    <p className="Project-description">May 2022 - Capstone Project (Sole Developer). Built and deployed within 10 days. </p>
+                                    <p className="Project-description">May 2022 - Solo Developer. Built and deployed within 9 days. </p>
                                     <p className="Project-description">Social media application for sharing information and building communities around hobbies and crafts - features user profiles, custom posts and comments, and a novel system for reviewing content. Allows for creating and disbanding groups and channels, along with complex rules for displaying posts and comments.</p>
                                     <div className="Project-links">
                                         <a href="https://project-indigo-front-end.herokuapp.com/" target="_blank">
@@ -55,8 +55,8 @@ const Work = ({ windowWidth }) => {
                                 {/* <iframe className="Project-image-r" src="https://www.youtube.com/embed/KOCCQ1StCc4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
                                 <div className="Project-about-l">
                                     <h1 className="Project-title Color-txt">Medici</h1>
-                                    <p className="Project-description">April 2022 - Project 2 (Sole Developer). Built and deployed within 4 days.</p>
-                                    <p className="Project-description">Mock nft-commerce website for primary sale between store-fronts/collections and buyer -  features user and shop profiles for listing owned NFTs, a buying mechanism for transferring ownership, and novel viewport layout for viewing owned items.</p>
+                                    <p className="Project-description">April 2022 - Solo Developer. Built and deployed within 4 days.</p>
+                                    <p className="Project-description">Mock NFT-commerce website for primary sale between store-fronts/collections and buyer -  features user and shop profiles for listing owned NFTs, a buying mechanism for transferring ownership, and novel viewport layout for viewing owned items.</p>
                                     <div className="Project-links Dark-txt">
                                         <a href="https://sleepy-inlet-25052.herokuapp.com/" target="_blank">
                                             <div className="P-badge">
@@ -88,7 +88,7 @@ const Work = ({ windowWidth }) => {
                                 {/* <iframe className="Project-image-l" src="https://www.youtube.com/embed/MsyVVXxM12E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
                                 <div className="Project-about-r">
                                     <h1 className="Project-title Color-txt">Duemila-Ruote</h1>
-                                    <p className="Project-description">April 2022 - Project 3 (Collaborative). Built and deployed with a team of four developers within 7 days.</p>
+                                    <p className="Project-description">April 2022 - Collaborative. Built and deployed with a team of four developers within 7 days.</p>
                                     <p className="Project-description">A web application focused on viewing, buying, selling, and modding luxury cars - features a garage webpage for viewing owned cars and mod parts, as well as a public lot listing cars for sale.  Allows users to mod cars with owned parts and view how stats increase accordingly.</p>
                                     <div className="Project-links Dark-txt">
                                         <a href="https://ancient-atoll-31198.herokuapp.com/" target="_blank">
@@ -129,7 +129,7 @@ const Work = ({ windowWidth }) => {
                                 {/* <iframe className="Project-image-r" src="https://www.youtube.com/embed/I4Ho_TDmAdE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe> */}
                                 <div className="Project-about-l">
                                     <h1 className="Project-title Color-txt">BATTLEDUCKS</h1>
-                                    <p className="Project-description">March 2022 - Project 1 (Sole Developer). Built and deployed within 4 days.</p>
+                                    <p className="Project-description">March 2022 - Solo Developer. Built and deployed within 4 days.</p>
                                     <p className="Project-description">Drag-and-drop two-player card game built from scratch utilizing HTML, CSS, JavaScript. BATTLEDUCKS features custom pixel assets and functions for game initialization, multiple player actions, and win-condition checks.</p>
                                     <div className="Project-links Dark-txt">
                                         <a href="https://battleducks-dm.surge.sh/" target="_blank">
