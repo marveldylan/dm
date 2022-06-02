@@ -57,6 +57,7 @@ const Work = ({ windowWidth }) => {
                                     <h1 className="Project-title Color-txt">Medici</h1>
                                     <p className="Project-description">April 2022 - Solo Developer. Built and deployed within 4 days.</p>
                                     <p className="Project-description">Mock NFT-commerce website for primary sale between store-fronts/collections and buyer -  features user and shop profiles for listing owned NFTs, a buying mechanism for transferring ownership, and novel viewport layout for viewing owned items.</p>
+                                    <p className="Project-description">Test Login: test@test.test Test Password: 1234</p>
                                     <div className="Project-links Dark-txt">
                                         <a href="https://sleepy-inlet-25052.herokuapp.com/" target="_blank">
                                             <div className="P-badge">
